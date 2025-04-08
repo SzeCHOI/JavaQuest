@@ -11,16 +11,17 @@
  * The variable varC is true
  * The variable fnumber is -130.2
  * The variable dnumber is -20.5
- * The variable reminder is 1
+ * The variable remainder is 1
  * The variable result is 3
  */
 // Primitive types and operators
-public class JavaQuest1 {
+public class JavaQuest {
 
   public static void main(String[] args) {
 
     System.out.println("I am going to add two numbers together:");
     int first = 31;
+    int second = 42;
     // declare the second one
     // code here ...
 
@@ -29,11 +30,13 @@ public class JavaQuest1 {
 
     // Add two numbers and print it out
     // code here ...
+    int sum = first + second;
     System.out.println("The sum is " + sum);
 
     // subtraction
     // code here with tips, pls fix ...
     // subtract = first - second
+    int subtract = first - second;
     System.out.println("The subtraction reuslt is " + subtract);
 
     // another sum
@@ -45,6 +48,8 @@ public class JavaQuest1 {
 
     // declare two boolean variable with true and false value
     // code here
+    boolean varB = false;
+    boolean varC = true;
     System.out.println("The variable varB is " + varB);
     System.out.println("The variable varC is " + varC);
 
@@ -55,17 +60,18 @@ public class JavaQuest1 {
     System.out.println("The variable fnumber is " + fnumber);
     System.out.println("The variable dnumber is " + dnumber);
 
-    // Find reminder. Declare variable a & reminder
+    // Find remainder. Declare variable a & remainder
     int a = 7;
     int b = 3;
     // Fix it ...
-    int reminder = a - b;
+    int reminder = a % b;
     System.out.println("The variable reminder is " + reminder);
 
     // declare a variable x and assign value to it.
     int e = 7;
     int o = 8;
     int y = 4;
+    int x = 2;
     // code here ... define the x and assign value to it
     int result = e - o * x / y;
     System.out.println("The result is " + result);
